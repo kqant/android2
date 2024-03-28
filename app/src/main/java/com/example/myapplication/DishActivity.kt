@@ -25,7 +25,7 @@ class DishActivity : AppCompatActivity() {
         val textViewDateStart = findViewById<TextView>(R.id.textViewDateStart)
         textViewDateStart.text = "Время размещения: " + dish?.dateStart
         val textViewDateEnd = findViewById<TextView>(R.id.textViewDateEnd)
-        textViewDateEnd.text = "Время завершения" + dish?.dateEnd
+        textViewDateEnd.text = "Время завершения: " + dish?.dateEnd
         val textViewReview = findViewById<TextView>(R.id.textViewReview)
         textViewReview.text = "Отзыв:\n "+dish?.review
 
