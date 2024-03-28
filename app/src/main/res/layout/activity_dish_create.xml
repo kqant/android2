@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top
+"
+    android:paddingRight="8dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:padding="20dp"
+        android:src="@drawable/img0"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp">
+
+        <EditText
+            android:id="@+id/textViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textViewDateStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DateStart"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textViewDateEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date Finish"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textViewReview"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="bottom"
+            android:hint="Reviw"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить" />
+
+</LinearLayout>
